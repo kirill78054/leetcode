@@ -12,3 +12,17 @@
 /.idea/uiDesigner.xml
 /.idea/vcs.xml
 /target/
+/leetcode.iml
+/.idea/libraries/Maven__junit_junit_4_13_1.xml
+/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml
+/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml
+/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml
+/.idea/libraries/Maven__org_springframework_spring_aop_5_2_19_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_beans_5_2_19_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_context_5_2_19_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_core_5_2_19_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_expression_5_2_19_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_19_RELEASE.xml
+/.idea/libraries/Maven__org_springframework_spring_test_5_2_19_RELEASE.xml
+/.idea/modules.xml
