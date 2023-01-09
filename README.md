@@ -1,0 +1,1 @@
+Repository for tasks from [LeetCode](https://leetcode.com/kirill78054/)
