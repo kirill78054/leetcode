@@ -12,7 +12,7 @@ Explanation:
 3rd customer has wealth = 8
 The 2nd customer is the richest with a wealth of 10.
 */
-public class T1672Test {
+public class TMaximumWealth1672Test {
 
     @Test
     public void maximumWealthTest() {

@@ -14,7 +14,7 @@ Example 2:
 Input: nums = [-7,-3,2,3,11]
 Output: [4,9,9,49,121]
  */
-public class T8_977Test {
+public class T8SortedSquares977Test {
 
     @Test
     public void solutionTest() {

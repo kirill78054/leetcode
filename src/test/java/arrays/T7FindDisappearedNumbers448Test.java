@@ -16,7 +16,7 @@ Example 2:
 Input: nums = [4,3,2,7,8,2,3,1]
 Output: [2]
  */
-public class T7_448Test {
+public class T7FindDisappearedNumbers448Test {
 
     @Test
     public void solutionTest() {

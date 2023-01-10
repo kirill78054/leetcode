@@ -3,7 +3,7 @@ package arrays;
 import org.junit.Test;
 
 //Заданный двоичный массив , верните максимальное число последовательных 's в массиве.nums1
-public class T485Test {
+public class TFindMaxConsecutiveOnes485Test {
 
     @Test
     public void findMaxConsecutiveOnesTest() {

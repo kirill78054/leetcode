@@ -22,7 +22,7 @@ Example 2:
 Input: n = 5
 Output: ["1","2","Fizz","4","Buzz"]
 */
-public class T412Test {
+public class TFizzBuzz412Test {
 
     @Test
     public void solutionTest(){

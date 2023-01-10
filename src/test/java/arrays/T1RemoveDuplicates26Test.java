@@ -2,7 +2,7 @@ package arrays;
 
 import org.junit.Test;
 
-public class T1_26Test {
+public class T1RemoveDuplicates26Test {
 
     @Test
     public void solutionTest() {

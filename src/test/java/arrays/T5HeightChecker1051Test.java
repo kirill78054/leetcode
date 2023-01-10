@@ -11,7 +11,7 @@ Explanation:
 heights:  [1,1,4,2,1,3]
 expected: [1,1,1,2,3,4]
  */
-public class T5_1051Test {
+public class T5HeightChecker1051Test {
 
     @Test
     public void solutionTest() {

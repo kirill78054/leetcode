@@ -9,7 +9,7 @@ Output: [1,3,12,0,0]
 Input: nums = [0]
 Output: [0]
  */
-public class T2_283Test {
+public class T2MoveZeroes283Test {
 
     @Test
     public void solutionTest() {

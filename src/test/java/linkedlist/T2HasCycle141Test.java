@@ -16,7 +16,7 @@ Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 
  */
-public class T2_141Test {
+public class T2HasCycle141Test {
 
     @Test
     public void runTest() {

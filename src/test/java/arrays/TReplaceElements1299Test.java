@@ -13,7 +13,7 @@ Output: [18,6,6,6,1,-1]
 Input: arr = [400]
 Output: [-1]
 */
-public class T1299Test {
+public class TReplaceElements1299Test {
 
     @Test
     public void solutionTest() {

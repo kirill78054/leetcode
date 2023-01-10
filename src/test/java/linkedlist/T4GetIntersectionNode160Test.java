@@ -12,7 +12,7 @@ If the two linked lists have no intersection at all, return null
 Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
 Output: Intersected at '8'
  */
-public class T4_160Test {
+public class T4GetIntersectionNode160Test {
 
     ListNode oneFirst;
     ListNode oneSecond;

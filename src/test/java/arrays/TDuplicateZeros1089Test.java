@@ -5,7 +5,7 @@ import org.junit.Test;
 /*
 Given a fixed-length integer array , duplicate each occurrence of zero, shifting the remaining elements to the right.arr
 */
-public class T1089Test {
+public class TDuplicateZeros1089Test {
 
     @Test
     public void solutionTest() {

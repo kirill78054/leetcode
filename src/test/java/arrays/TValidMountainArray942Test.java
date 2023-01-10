@@ -10,7 +10,7 @@ Output: false
 Input: arr = [0,3,2,1]
 Output: true
 */
-public class T942Test {
+public class TValidMountainArray942Test {
 
     @Test
     public void solutionTest() {

@@ -15,7 +15,7 @@ The first distinct maximum is 3.
 The second distinct maximum is 2.
 The third distinct maximum is 1.
  */
-public class T6_414Test {
+public class T6ThirdMax414Test {
 
     @Test
     public void solutionTest() {

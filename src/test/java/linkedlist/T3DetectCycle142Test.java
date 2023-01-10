@@ -14,7 +14,7 @@ Output: true
 Input: head = [1,2], pos = 0
 Output: true
  */
-public class T3_142Test {
+public class T3DetectCycle142Test {
 
     @Test
     public void runTest() {

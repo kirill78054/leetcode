@@ -3,7 +3,7 @@ package arrays;
 import org.junit.Test;
 
 
-public class T876Test {
+public class TMiddleNode876Test {
 
     @Test
     public void solutionTest() {

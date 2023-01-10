@@ -8,7 +8,7 @@ Output: true
 Input: arr = [3,1,7,11]
 Output: false
 */
-public class T1346Test {
+public class TCheckIfExist1346Test {
 
     @Test
     public void solutionTest() {

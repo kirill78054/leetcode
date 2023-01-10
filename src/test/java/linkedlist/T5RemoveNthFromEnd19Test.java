@@ -8,7 +8,7 @@ Given the head of a linked list, remove the nth node from the end of the list an
 Input: head = [1,2,3,4,5], n = 2
 Output: [1,2,3,5]
  */
-public class T5_19Test {
+public class T5RemoveNthFromEnd19Test {
 
     @Test
     public void runTest() {
@@ -44,15 +44,6 @@ public class T5_19Test {
         //Пропустить нужный узел
         show.next = show.next.next;
         return start.next;
-    }
-
-    private void print(ListNode node) {
-        ListNode pr = node;
-        while (pr != null) {
-            System.out.print(pr.val + " ");
-            pr = pr.next;
-        }
-        System.out.println();
     }
 
     public class ListNode {

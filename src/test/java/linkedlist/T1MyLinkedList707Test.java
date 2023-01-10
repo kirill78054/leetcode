@@ -21,7 +21,7 @@ myLinkedList.get(1);              // return 2
 myLinkedList.deleteAtIndex(1);    // now the linked list is 1->3
 myLinkedList.get(1);              // return 3
  */
-public class T1_707Test {
+public class T1MyLinkedList707Test {
 
     MyLinkedList707 list = new MyLinkedList707();
 

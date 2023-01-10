@@ -9,7 +9,7 @@ Given an integer array , move all the even integers at the beginning of the arra
 Input: nums = [3,1,2,4]
 Output: [2,4,3,1]
  */
-public class T3_905Test {
+public class T3SortArrayByParity905Test {
 
     @Test
     public void solutionTest() {

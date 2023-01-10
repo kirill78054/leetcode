@@ -10,7 +10,7 @@ Given an integer array and an integer , remove all occurrences of in in-place. T
 Input: nums = [3,2,2,3], val = 3
 Output: 2, nums = [2,2,_,_]
  */
-public class T4_27Test {
+public class T4RemoveElement27Test {
 
     @Test
     public void solutionTest() {
@@ -21,17 +21,14 @@ public class T4_27Test {
     }
 
     public int removeElement(int[] nums, int val) {
-        int length = 0;
+        int resultSize = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != val) {
-                int tmp = nums[i];
-                nums[i] = nums[length];
-                nums[length] = tmp;
-                length++;
+                nums[resultSize++] = nums[i];
             }
         }
 
-        return length;
+        return resultSize;
     }
 
 }

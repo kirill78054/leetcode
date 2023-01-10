@@ -5,7 +5,7 @@ import org.junit.Test;
 /*
 При заданном массиве целых чисел верните, сколько из них содержит четное число цифр
 */
-public class T1295Test {
+public class TFindNumbers1295Test {
 
     @Test
     public void solutionTest() {
