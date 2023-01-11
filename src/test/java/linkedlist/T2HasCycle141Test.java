@@ -55,14 +55,4 @@ public class T2HasCycle141Test {
         return false;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
 }
