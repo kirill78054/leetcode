@@ -32,42 +32,29 @@ public class T12AddTwoNumbers2Test {
     }
 
     private ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode firs = new ListNode(0);
-        ListNode result = new ListNode(0);
-        firs.next = result;
+        return sumNumbers(l1, l2, 0);
+    }
 
-        int sumOne = 0, sumTwo = 0, sum;
-        boolean tenFlag = false;
-
-        while (l1 != null || l2 != null) {
-            if (l1 != null) {
-                sumOne = l1.val;
-                l1 = l1.next;
-            }
-            if (l2 != null) {
-                sumTwo = l2.val;
-                l2 = l2.next;
-            }
-
-            sum = sumOne + sumTwo;
-            if (tenFlag) {
-                sum++;
-                tenFlag = false;
-            }
-
-            if (sum >= 10) {
-                sum -= 10;
-                tenFlag = true;
-            }
-
-            result.next = new ListNode(sum);
-            result = result.next;
-            sumOne = 0;
-            sumTwo = 0;
+    private ListNode sumNumbers(ListNode l1, ListNode l2, int carry) {
+        ListNode result = null;
+        if (l1 != null && l2 != null) {
+            carry = l1.val + l2.val + carry;
+            result = new ListNode(carry % 10);
+            result.next = sumNumbers(l1.next, l2.next, carry / 10);
+        } else if (l1 == null && l2 == null) {
+            if (carry != 0)
+                result = new ListNode(carry);
+        } else if (l1 != null) {
+            carry = l1.val + carry;
+            result = new ListNode(carry % 10);
+            result.next = sumNumbers(l1.next, l2, carry / 10);
+        } else if (l2 != null) {
+            carry = l2.val + carry;
+            result = new ListNode(carry % 10);
+            result.next = sumNumbers(l1, l2.next, carry / 10);
         }
 
-        if (tenFlag) result.next = new ListNode(1);
-        return firs.next.next;
+        return result;
     }
 
 }
