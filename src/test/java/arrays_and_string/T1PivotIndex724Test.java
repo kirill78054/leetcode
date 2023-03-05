@@ -1,4 +1,4 @@
-package linkedlist;
+package arrays_and_string;
 
 import org.junit.Test;
 
@@ -16,7 +16,7 @@ Left sum = nums[0] + nums[1] + nums[2] = 1 + 7 + 3 = 11
 Right sum = nums[4] + nums[5] = 5 + 6 = 11
 */
 
-public class T13PivotIndex724Test {
+public class T1PivotIndex724Test {
 
     @Test
     public void runTest() {
