@@ -22,11 +22,8 @@ public class T5HeightChecker1051Test {
     }
 
     public int heightChecker(int[] nums) {
-        int[] copy = nums.clone();
         int [] mas = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            mas[i] = nums[i];
-        }
+        System.arraycopy(nums, 0, mas, 0, nums.length);
         for (int i = 0; i < nums.length - 1 ; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] > nums[j]) {
