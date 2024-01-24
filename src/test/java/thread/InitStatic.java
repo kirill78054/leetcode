@@ -24,7 +24,7 @@ class One extends Super {
     }
 }
 
-public class Main {
+public class InitStatic {
 
     public static void main(String[] args) {
         One oneFirst = new One();

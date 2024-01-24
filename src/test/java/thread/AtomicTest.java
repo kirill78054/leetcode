@@ -64,7 +64,7 @@ class VolRel implements Callable<Integer> {
 
 }
 
-public class MainT {
+public class AtomicTest {
     static Counter s = new Counter();
 
     @SneakyThrows
