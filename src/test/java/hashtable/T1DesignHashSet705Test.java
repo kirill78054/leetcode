@@ -31,21 +31,20 @@ public class T1DesignHashSet705Test {
         second.add(1000000);
         boolean contains = second.contains(1000000);
         assertThat(contains).isTrue();
-
     }
 }
 
 class MyHashSet {
 
     private final Node[] buckets;
-    private final int capacity = 1000;
+    private final int CAPACITY = 1000;
 
     public MyHashSet() {
-        this.buckets = new Node[capacity];
+        this.buckets = new Node[CAPACITY];
     }
 
     private int hashCode(int key) {
-        return key % capacity;
+        return key % CAPACITY;
     }
 
     public void add(int key) {
