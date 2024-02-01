@@ -43,11 +43,9 @@ public class T4SingleNumber136Test {
         return xor(0, nums);
     }
 
-    public int xor(int n, int[] nums) {
-        if (n >= nums.length) {
-            return 0;
-        }
-        return nums[n++] ^ xor(n, nums);
+    private int xor(int index, int[] nums) {
+        if (index >= nums.length) return 0;
+        return nums[index++] ^ xor(index, nums);
     }
 
 }
