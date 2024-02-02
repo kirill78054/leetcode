@@ -47,11 +47,12 @@ public class T5IntersectionTwoArrays349Test {
     public int[] intersection(int[] nums1, int[] nums2) {
         int[] tmp = new int[10001];
 
-        ArrayList<Integer> resList = new ArrayList<>();
 
         for (int i : nums1) {
             tmp[i] = 1;
         }
+
+        ArrayList<Integer> resList = new ArrayList<>();
 
         for (int i : nums2) {
             if (tmp[i] == 1) {
