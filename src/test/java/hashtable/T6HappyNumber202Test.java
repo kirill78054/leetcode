@@ -28,24 +28,24 @@ public class T6HappyNumber202Test {
     }
 
     public boolean isHappy(int n) {
-        if (checkOneAndSeven(n)) return true;
+        if (isHappyNum(n)) return true;
         while (n > 9) {
-            n = getSumNumbers(n);
-            if (checkOneAndSeven(n)) return true;
+            n = sum(n);
+            if (isHappyNum(n)) return true;
         }
         return false;
     }
 
-    private boolean checkOneAndSeven(int num) {
-        return num == 1 || num == 7;
+    private boolean isHappyNum(int n) {
+        return n == 1 || n == 7;
     }
 
-    private int getSumNumbers(int number) {
+    private int sum(int num) {
         int sum = 0;
-        while (number > 0) {
-            int i = number % 10;
-            sum += i * i;
-            number /= 10;
+        while (num > 0) {
+            int tmp = num % 10;
+            sum += tmp * tmp;
+            num /= 10;
         }
         return sum;
     }
