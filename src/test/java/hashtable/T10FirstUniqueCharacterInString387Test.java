@@ -30,7 +30,6 @@ public class T10FirstUniqueCharacterInString387Test {
                 return i;
             }
         }
-
         return -1;
     }
 
