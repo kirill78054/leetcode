@@ -5,13 +5,12 @@ import org.junit.Test;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-public class Interrupt {
+public class InterruptTest {
 
     @Test
     public void call() throws InterruptedException {
         System.out.println("Start");
         T tr = new T();
-
         tr.start();
         SECONDS.sleep(3);
         tr.interrupt();
